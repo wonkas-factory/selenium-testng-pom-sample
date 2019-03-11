@@ -41,7 +41,8 @@ public class EmailTests {
   @AfterMethod
   public void afterMethod(ITestResult result) {
     if (result.getStatus() == ITestResult.FAILURE) {
-      // TODO screenshot
+      Utility.takeScreenshot(alice, result);
+      Utility.takeScreenshot(bob, result);
       afterClass();
       beforeClass();
     } else {

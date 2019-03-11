@@ -17,11 +17,6 @@ public class InboxPage extends BasePage {
     PageFactory.initElements(driver, this);
   }
 
-  // Override for beanshell console
-  public WebDriver getDriver() {
-    return this.driver;
-  }
-
   public ComposePage selectCompose() {
     composeButton.click();
 

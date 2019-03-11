@@ -46,11 +46,11 @@ public class BasePage {
     return driver;
   }
 
-  protected WebDriver getDriver() {
+  public WebDriver getDriver() {
     return this.driver;
   }
 
-  protected Map<String, String> getConfig() {
+  public Map<String, String> getConfig() {
     return this.config;
   }
 
