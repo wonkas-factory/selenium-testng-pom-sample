@@ -1,0 +1,14 @@
+Alice:
+  key: Alice
+  browser: Chrome
+  url: http://www.gmail.com
+  email_login: willy.auto.tester@gmail.com
+  email_password: enterPassword
+  
+Bob:
+  key: Bob
+  browser: Chrome
+  url: http://www.gmail.com
+  email_login: willy.auto.tester.2@gmail.com
+  email_password: enterPassword
+  
